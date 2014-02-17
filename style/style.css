@@ -1,0 +1,42 @@
+/*
+ *
+ */
+ #slider
+ {
+	 position:relative;
+	 width:100%;
+	 overflow:hidden;
+ }
+ #slider .slide
+ {
+	 position:absolute;
+ }
+ #slider .slide img
+ {
+	 width:100%;
+ }
+ .nav-buttons
+ {
+	position: absolute;
+	top: 50%;
+	width:100%;
+	z-index: 1;
+	
+ }
+ .nav-buttons > a
+ {
+	position:absolute;	
+	display:inline-block;
+	font-size: 14px;
+	padding: 10px;
+	background-color: aliceblue;
+  }
+  .nav-buttons > a.nxt-btn
+  {
+	  right:0;
+  }
+  .nav-buttons > a.prev-btn
+  {
+	  left:0;
+  }
+  
